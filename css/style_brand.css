@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #f7ef84;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'SUITE', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ebebcc;
+    background-color: #16224b;
+}
+
+/*header*/
+#header {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.gnb li {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 50px
+}
+
+/*banner*/
+#banner {
+    background-image: url(../image/banner_bg.jpg);
+    height: 820px;
+}
+
+#banner_inner {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    padding-top: 150px;
+}
+
+.text {
+    padding-top: 200px;
+}
+
+.text h1 {
+    text-align: center;
+    font-family: 'PyeongChang Peace';
+    color: #ebebcc;
+    padding-bottom: 40px;
+}
+
+.text p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/*bar*/
+.bar {
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_2 {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text_2 {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.text_2 h1 {
+    font-family: 'PyeongChang Peace';
+    color: #ebebcc;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.text_2 p {
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.right {
+    text-align: right;
+}
+
+/*cafe*/
+.cafe {
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*footer*/
+#footer {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#footer img {
+    padding: 50px 0;
+}
+
+#footer p {
+    color: #fff;
+    padding-bottom: 10px;
+}

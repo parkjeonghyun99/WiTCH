@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'PyeongChang Peace';
+    src: url('PyeongChangPeace-Light.eot');
+    src: url('PyeongChangPeace-Light.eot?#iefix') format('embedded-opentype'),
+        url('PyeongChangPeace-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PyeongChang Peace';
+    src: url('PyeongChangPeace-Bold.eot');
+    src: url('PyeongChangPeace-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PyeongChangPeace-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

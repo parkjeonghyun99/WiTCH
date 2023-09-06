@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiTCH</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
+    <!--suite 폰트-->
+    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/static/woff2/SUITE.css" rel="stylesheet">
+    <!--평창평화체 폰트-->
+    <link rel="stylesheet" href="./font/stylesheet.css">
+    <!-- Link Swiper's CSS main_banner -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Link Swiper's CSS event -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <a href="./index.html" target="_blank"><img src="./image/logo.png" alt="logo"></a>
+        <ul class="gnb">
+            <li><a href="./brand.html">BRAND</a></li>
+            <li><a href="./sub_bar.html">BAR</a></li>
+            <li><a href="#">CAFE</a></li>
+            <li><a href="#">GOODS</a></li>
+        </ul>
+    </div><!--header-->
+
+    <!-- Swiper -->
+    <div class="swiper main_banner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./image/banner_1.jpg" alt="main_banner1"></div>
+            <div class="swiper-slide"><img src="./image/banner_2.jpg" alt="main_banner2"></div>
+            <div class="swiper-slide"><img src="./image/banner_3.jpg" alt="main_banner3"></div>
+        </div> <!--swiper-->
+        <div id="box">
+            <div id="menu">
+                <h1>
+                    BEST MENU
+                </h1>
+                <ul class="menu_inner">
+                    <li>
+                        <h3>COCKTAIL</h3>
+                        <img src="./image/cocktail.png" alt="cocktail">
+                        <h4>블루하와이</h4>
+                        <p>하와이의 시원하게 트인 하늘과 <br>
+                            푸른 바다를 생생하게 재현한 칵테일</p>
+                    </li>
+                    <li>
+                        <h3>COFFE</h3>
+                        <img src="./image/coffe.png" alt="coffe">
+                        <h4>아메리카노</h4>
+                        <p>에스프레소의 진한 풍미를 <br>
+                            느낄 수 있는 아메리카노</p>
+                    </li>
+                    <li>
+                        <h3>FOOD</h3>
+                        <img src="./image/food.png" alt="food">
+                        <h4>프레쉬 후르츠 펀치</h4>
+                        <p>계절마다 다양한 과일로 <br>
+                            선보이는 과일화채</p>
+                    </li>
+                </ul><!--menu_inner-->
+            </div><!--menu-->
+
+        </div>
+        <div id="event_box">
+            <h1>EVENT</h1>
+            <div class="swiper event">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./image/event1.png" alt="event1"></div>
+                    <div class="swiper-slide"><img src="./image/event2.png" alt="event2"></div>
+                    <div class="swiper-slide"><img src="./image/event3.png" alt="event3"></div>
+                </div>
+            </div> <!--swiper-->
+        </div><!--event_box-->
+
+        <div id="introduce">
+            <h1>CAFE & BAR</h1>
+            <ul>
+                <li class="int1"></li>
+                <li class="int2"></li>
+                <li class="int3"></li>
+                <li class="int4"></li>
+                <li class="int5"></li>
+                <li class="int6"></li>
+            </ul>
+        </div><!--introduce-->
+
+        <div id="instagram_box">
+            <div id="instagram">
+                <h1>INSTAGRAM</h1>
+                <ul>
+                    <li><a href="#"><img src="./image/instagram1.png" alt="instagram1"></a></li>
+                    <li><a href="#"><img src="./image/instagram2.png" alt="instagram2"></a></li>
+                    <li><a href="#"><img src="./image/instagram3.png" alt="instagram3"></a></li>
+                    <li><a href="#"><img src="./image/instagram4.png" alt="instagram4"></a></li>
+                    <li><a href="#"><img src="./image/instagram5.png" alt="instagram5"></a></li>
+                </ul>
+            </div><!--instagram-->
+        </div><!--instagram_box-->
+
+        <div id="footer">
+            <img src="./image/sub_logo.png" alt="sub_logo">
+            <p>
+                만든이 : 박정현
+            </p>
+            <p>
+                연락처 : 010-9774-4452
+            </p>
+            <p>
+                이메일 : wjdgus4452@naver.com
+            </p>
+            <p>
+                주소 : 부산광역시 해운대구...
+            </p>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".main_banner", {
+                spaceBetween: 0,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+
+                loop: true,
+            });
+        </script>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".event", {
+                spaceBetween: 0,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+            });
+        </script>
+</body>
+
+</html>
