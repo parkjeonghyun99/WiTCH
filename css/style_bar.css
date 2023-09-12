@@ -32,6 +32,7 @@ body {
     line-height: 30px;
     color: #ebebcc;
     background-color: #16224b;
+    min-width: 1450px;
 }
 
 /*header*/

@@ -31,6 +31,7 @@ body {
     font-size: 20px;
     line-height: 30px;
     background-color: #16224b;
+    min-width: 1450px;
 }
 
 /*header*/
